@@ -10,8 +10,11 @@ namespace LetterLRight
 
             var userDecision = Console.ReadLine();
             var figure = userDecision == "1" ? new Rectangle(10, 10) as Figure : new Square(10);
+
+            // Validate initial area
             ValidateLiskov(figure, 100);
 
+            // Validate modified area
             switch (figure)
             {
                 case Rectangle rect:
