@@ -24,7 +24,6 @@ namespace LetterLRight
                     break;
             }
 
-
             Console.ReadLine();
         }
 
